@@ -1,0 +1,20 @@
+{
+  "name": "dovbysh/fibonacci_numbers",
+  "description": "Print fibonacci sequence",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Dovbyshko Andrey",
+      "email": "dovbysh@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "dovbysh\\Fibonacci\\Numbers\\": "src"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  }
+}
